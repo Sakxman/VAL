@@ -37,6 +37,8 @@ yesBtn.addEventListener("click", () => {
   message.textContent = "I knew you would say YES 😌💘";
 
   document.querySelector(".buttons").style.display = "none";
+   document.getElementById("giftSection").style.display = "block";
+
   document.body.style.background =
     "linear-gradient(135deg, #ff9a9e, #fad0c4)";
 
@@ -62,4 +64,5 @@ function createHeart() {
     heart.remove();
   }, 3000);
 }
+
 
