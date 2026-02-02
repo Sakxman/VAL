@@ -4,6 +4,7 @@ const message = document.getElementById("message");
 const title = document.getElementById("title");
 
 const noMessages = [
+   "please... 😢",
   "Are you sure? 😏",
   "Think again 💭",
   "Don't do this to me 😭",
@@ -61,3 +62,4 @@ function createHeart() {
     heart.remove();
   }, 3000);
 }
+
